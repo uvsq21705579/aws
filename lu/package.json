@@ -18,7 +18,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/eufelipemateus/domino-game.git"
+		"url": "git+https://github.com/uvsq21705579/aws.git"
 	},
 	"license": "CC-BY-NC-4.0",
 	"dependencies": {
