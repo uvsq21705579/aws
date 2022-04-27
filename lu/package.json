@@ -1,13 +1,13 @@
 {
-	"name": "domino-game",
+	"name": "aws",
 	"version": "2.1.1",
 	"description": "Description",
 	"main": "./._build/Server.js",
 	"engines": {
-		"node": ">=v12.13.0"
+		"node": ">=v18.0.0"
 	},
 	"scripts": {
-		"build": "npm run-script build",
+		"build": "eslint && tsc  &&   npm run compile-front",
 		"start": "node ./._build/Server.js",
 		"pm2:start": "pm2 start",
 		"minify": "jsmin -o ._build/build.js ._build/* ",
