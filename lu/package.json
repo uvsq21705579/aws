@@ -7,7 +7,7 @@
 		"node": ">=v12.13.0"
 	},
 	"scripts": {
-		"build": "eslint && tsc  &&   npm run compile-front",
+		"build": "npm run-script build",
 		"start": "node ./._build/Server.js",
 		"pm2:start": "pm2 start",
 		"minify": "jsmin -o ._build/build.js ._build/* ",
