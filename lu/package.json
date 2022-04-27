@@ -1,10 +1,10 @@
 {
-	"name": "aws",
+	"name": "aws/lu",
 	"version": "2.1.1",
 	"description": "Description",
 	"main": "./._build/Server.js",
 	"engines": {
-		"node": ">=v18.0.0"
+		"node": ">=v12.13.0"
 	},
 	"scripts": {
 		"build": "eslint && tsc  &&   npm run compile-front",
